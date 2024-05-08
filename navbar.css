@@ -1,0 +1,63 @@
+#navbar {
+    width: 100%;
+    height: 100px;
+    margin: 0px;
+    background-color: #ed1c24;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: solid;
+    border-width: medium;
+    border-color: black;
+}
+
+.personagem {
+    height: 100px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 15px;
+    overflow: visible;
+}
+
+#face {
+    height: 80px;
+    width: auto;
+    position: relative;
+    left: 10px;
+}
+
+#hair {
+    width: 75px;
+    height: auto;
+    position: absolute;
+    top: 4px;
+    left: -6px;
+}
+
+#eyes {
+    width: 35px;
+    height: auto;
+    position: absolute;
+    top: 38px;
+    left: 13px;
+}
+
+#mouth {
+    width: 11px;
+    height: auto;
+    position: absolute;
+    top: 59px;
+    left: 26px;
+}
+
+.nomesala {
+    color: rgb(224, 237, 252);
+    letter-spacing: 2px;
+
+    position: absolute;
+    left: 47%;
+}

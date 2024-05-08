@@ -1,0 +1,39 @@
+#portao {
+    width: 35%;
+    height: auto;
+    position: absolute;
+    bottom: 15%;
+    left: 32.5%;
+}
+
+.augustusimg {
+    position: absolute;
+    bottom: 1%;
+    height: 40%;
+    width: auto;
+    left: 10%;
+}
+
+.violetimg {
+    position: absolute;
+    bottom: 4%;
+    height: 40%;
+    width: auto;
+    left: 26%;
+}
+
+.verucaimg {
+    position: absolute;
+    bottom: 4%;
+    height: 40%;
+    width: auto;
+    right: 30%;
+}
+
+.mikeimg {
+    position: absolute;
+    bottom: 1%;
+    height: 40%;
+    width: auto;
+    right: 10%;
+}

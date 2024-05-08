@@ -1,0 +1,47 @@
+body {
+    background-color: #FFD91D;
+
+}
+
+html {
+    font-family: Laughter;
+}
+
+.corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: block;
+    width: 26%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#botao_start {
+    width: 25vh;
+    height: 10vh;
+    border-radius: 4em;
+    font-size: 2em;
+    background-color: #78256D;
+    color: #FFD91D;
+    border: none;
+    font-family: Laughter;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+#botao_start:hover {
+    cursor: pointer;
+    color: #78256D;
+    background-color: #FFD91D;
+    border: 5px solid #78256D;
+}

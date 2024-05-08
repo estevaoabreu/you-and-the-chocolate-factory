@@ -1,0 +1,25 @@
+.violetdiv {
+    width: 100%;
+}
+
+.violetdiv .violetimg {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    cursor: pointer;
+}
+
+.scene .violetimg {
+    position: absolute;
+    top: 32%;
+    height: 40%;
+    width: auto;
+    left: 18%;
+    z-index: -1;
+}
+
+main {
+    display: none;
+}

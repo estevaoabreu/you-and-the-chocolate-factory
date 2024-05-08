@@ -1,0 +1,143 @@
+body {
+    background-color: #8b181b;
+}
+
+.corpo_costumizar {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    overflow: visible;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    color: #3ac3d8;
+    letter-spacing: 2px;
+}
+
+.escolher_elementos {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 100px;
+
+    gap: 0px;
+    overflow: visible;
+}
+
+.escolher_elementos1 {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 40%;
+    overflow: visible;
+}
+
+.escolher_cabelo {
+    height: 400px;
+    align-items: flex-start;
+    position: relative;
+    top: 38vh;
+    overflow: visible;
+
+}
+
+#left_hair {
+    width: 70px;
+    height: auto;
+}
+
+#right_hair {
+    width: 70px;
+    height: auto;
+}
+
+#hair {
+    width: 28%;
+}
+
+.escolher_olhos {
+    align-items: center;
+    position: relative;
+    top: 5vh;
+    overflow: visible;
+
+}
+
+#eyes {
+    width: 13%;
+}
+
+#left_eyes {
+    width: 70px;
+    height: auto;
+}
+
+#right_eyes {
+    width: 70px;
+    height: auto;
+}
+
+.escolher_boca {
+    align-items: center;
+    position: relative;
+    top: 9.5vh;
+    overflow: visible;
+
+}
+
+#left_mouth {
+    width: 70px;
+    height: auto;
+}
+
+#right_mouth {
+    width: 70px;
+    height: auto;
+}
+
+#botao_costumize {
+    width: 25vh;
+    height: 10vh;
+    border-radius: 4em;
+    font-size: 2em;
+    background-color: #3ac3d8;
+    color: #8b181b;
+    border: none;
+    font-family: Laughter;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+#botao_costumize:hover {
+    color: #3ac3d8;
+    background-color: #8b181b;
+    border: 5px solid #3ac3d8;
+    cursor: pointer;
+}
+
+.chose {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.arrow {
+    cursor: pointer;
+}
+
+#escolher_cara {
+    width: 27.5%;
+}

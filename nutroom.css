@@ -1,0 +1,31 @@
+.verucadiv {
+    width: 100%;
+}
+
+.verucadiv .verucaimg {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.scene .verucaimg {
+    position: absolute;
+    top: 32%;
+    height: 40%;
+    width: auto;
+    left: 18%;
+    z-index: -1;
+}
+
+main {
+    display: none;
+}
+
+.squirrel {
+    position: absolute;
+    z-index: -1;
+    width: 63.1125px;
+    height: 66.0875px;
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Laughter;
+    src: url(/fonts/LAUGHTER.otf);
+}
+
+html {
+    font-family: Laughter;
+}
+
+.hidden {
+    display: none;
+}
+
+.x,
+.btn {
+    cursor: pointer;
+}
+
+* {
+    margin: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    user-select: none;
+}
+
+.bg {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    filter: blur(3px);
+}
+
+.popup {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    position: absolute;
+    left: 61%;
+    bottom: 19%;
+    transform: translate(-50%, 50%);
+    width: 25vh;
+    height: 8vh;
+    border-radius: 0.5em;
+    font-size: 2em;
+    background-color: #ed1c24;
+    color: #ffffff;
+    border: none;
+    font-family: Laughter;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #ed1c24;
+    background-color: #ffffff;
+    border: 5px solid #ed1c24;
+}
+
+.x {
+    width: 4%;
+    height: auto;
+    position: absolute;
+    left: 66%;
+    bottom: 82%;
+    transform: translate(-50%, 50%);
+}
+
+.blur {
+    filter: blur(8px);
+}

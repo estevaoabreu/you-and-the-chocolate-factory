@@ -1,0 +1,7 @@
+#elevator {
+    height: 20vh;
+    width: auto;
+    position: absolute;
+    left: 50%;
+    display: none;
+}

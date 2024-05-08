@@ -1,0 +1,24 @@
+.augustusdiv {
+    width: 100%;
+}
+
+.scene .augustusimg {
+    position: absolute;
+    top: 20%;
+    height: 40%;
+    width: auto;
+    right: 26%;
+    z-index: -1;
+}
+
+#tintedImage {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+main {
+    display: none;
+}
