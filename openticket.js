@@ -12,7 +12,7 @@ document.cookie = "sala=no";
 papel.addEventListener("click", function desembrulhar() {
     contador++;
     if (contador < nrcliques)
-        papel.src = "/images/papel" + contador + ".png";
+        papel.src = "./images/papel" + contador + ".png";
     else if (contador == nrcliques) {
         popuptoggle();
         var message = document.querySelector(".popup");

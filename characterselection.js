@@ -16,7 +16,7 @@ left_hair.addEventListener("click", function lha() {
     if (hs > 0)
         hs--;
     else hs = 3;
-    hair.src = "/images/hair" + hs + ".png";
+    hair.src = "./images/hair" + hs + ".png";
     document.cookie = "hairn=" + hs;
 });
 
@@ -24,7 +24,7 @@ right_hair.addEventListener("click", function rha() {
     if (hs < 3)
         hs++;
     else hs = 0;
-    hair.src = "/images/hair" + hs + ".png";
+    hair.src = "./images/hair" + hs + ".png";
     document.cookie = "hairn=" + hs;
 });
 
@@ -32,7 +32,7 @@ left_eyes.addEventListener("click", function lea() {
     if (es > 0)
         es--;
     else es = 3;
-    eyes.src = "/images/eyes" + es + ".png";
+    eyes.src = "./images/eyes" + es + ".png";
     document.cookie = "eyesn=" + es;
 });
 
@@ -40,7 +40,7 @@ right_eyes.addEventListener("click", function rea() {
     if (es < 3)
         es++;
     else es = 0;
-    eyes.src = "/images/eyes" + es + ".png";
+    eyes.src = "./images/eyes" + es + ".png";
     document.cookie = "eyesn=" + es;
 });
 
@@ -48,7 +48,7 @@ left_mouth.addEventListener("click", function lma() {
     if (ms > 0)
         ms--;
     else ms = 3;
-    mouth.src = "/images/mouth" + ms + ".png";
+    mouth.src = "./images/mouth" + ms + ".png";
     document.cookie = "mouthn=" + ms;
 });
 
@@ -56,6 +56,6 @@ right_mouth.addEventListener("click", function rma() {
     if (ms < 3)
         ms++;
     else ms = 0;
-    mouth.src = "/images/mouth" + ms + ".png";
+    mouth.src = "./images/mouth" + ms + ".png";
     document.cookie = "mouthn=" + ms;
 });

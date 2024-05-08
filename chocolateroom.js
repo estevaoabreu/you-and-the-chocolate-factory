@@ -10,7 +10,7 @@ augustusobj.addEventListener("click", function () {
 
 document.addEventListener('DOMContentLoaded', () => {
     var img = new Image();
-    img.src = '/images/augustus.png';
+    img.src = './images/augustus.png';
     var canvas = document.getElementById('tintedImage');
     var ctx = canvas.getContext('2d');
     var radius = 25;
@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
         canvas.addEventListener('mousemove', handleMouseMove);
     };
 
-    img.src = '/images/augustus.png';
+    img.src = './images/augustus.png';
 });
 
 

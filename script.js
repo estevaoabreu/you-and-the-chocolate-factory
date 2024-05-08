@@ -52,7 +52,7 @@ function popup(img) {
   var btn = document.querySelector(".btn");
   var popup = document.querySelector(".popup");
   popuptoggle();
-  popup.src = "/images/popup_" + titulo;
+  popup.src = "./images/popup_" + titulo;
   btn.setAttribute("onclick", "popuptoggle()");
 }
 
