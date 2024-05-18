@@ -35,12 +35,12 @@ body {
 .escolher_cabelo {
     align-items: flex-start;
     position: absolute;
-    top: -4.5vh;
+    top: -3.8vh;
     overflow: visible;
 }
 
 #hair {
-    height: 50vh;
+    height: 49.5vh;
     width: auto;
 }
 
