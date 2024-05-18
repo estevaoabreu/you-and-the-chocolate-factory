@@ -29,7 +29,7 @@ html {
     bottom: 0;
     left: 0;
     z-index: -1;
-    filter: blur(3px);
+    filter: blur(1px);
 }
 
 .popup {
@@ -74,4 +74,12 @@ html {
 
 .blur {
     filter: blur(8px);
+}
+
+.obj {
+    filter: drop-shadow(0 0 10px white);
+}
+
+.obj:hover {
+    filter: drop-shadow(0 0 30px white);
 }
