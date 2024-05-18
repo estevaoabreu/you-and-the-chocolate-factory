@@ -6,7 +6,7 @@ var portao = document.getElementById("portao");
 var entrou = false;
 var entrarfabrica = false;
 var choco_acaba = false;
-document.cookie = "sala=no";
+document.cookie = "sala=openTicket";
 
 
 papel.addEventListener("click", function desembrulhar() {
