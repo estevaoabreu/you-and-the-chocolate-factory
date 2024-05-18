@@ -3,12 +3,13 @@ body {
 }
 
 .corpo_costumizar {
-    margin: 50px;
+    padding: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 100px;
     overflow: visible;
+    height: 100vh;
 }
 
 .titulo {
@@ -18,89 +19,57 @@ body {
     align-items: center;
     color: #3ac3d8;
     letter-spacing: 2px;
+    overflow: visible;
 }
 
 .escolher_elementos {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0px 100px;
-
     gap: 0px;
-    overflow: visible;
-}
-
-.escolher_elementos1 {
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: 40%;
-    overflow: visible;
+    overflow: visible;  
+    position: relative;
 }
 
 .escolher_cabelo {
-    height: 400px;
     align-items: flex-start;
-    position: relative;
-    top: 38vh;
+    position: absolute;
+    top: -4.8vh;
     overflow: visible;
-
-}
-
-#left_hair {
-    width: 70px;
-    height: auto;
-}
-
-#right_hair {
-    width: 70px;
-    height: auto;
 }
 
 #hair {
-    width: 28%;
+    height: 50vh;
+    width: auto;
 }
 
 .escolher_olhos {
-    align-items: center;
-    position: relative;
-    top: 5vh;
+    align-items: flex-start;
+    position: absolute;
+    top: 14.8vh;
     overflow: visible;
-
 }
 
 #eyes {
-    width: 13%;
-}
-
-#left_eyes {
-    width: 70px;
-    height: auto;
-}
-
-#right_eyes {
-    width: 70px;
-    height: auto;
+    height: 5.3vh;
+    width: auto;
 }
 
 .escolher_boca {
-    align-items: center;
-    position: relative;
-    top: 9.5vh;
+    align-items: flex-start;
+    position: absolute;
+    top: 26vh;
     overflow: visible;
-
 }
 
-#left_mouth {
-    width: 70px;
-    height: auto;
+#mouth {
+    height: 5vh;
+    width: auto;
 }
 
-#right_mouth {
-    width: 70px;
+#right_mouth, #left_mouth, #right_eyes, #left_eyes, #left_hair, #right_hair {
+    width: 80px;
     height: auto;
 }
 
@@ -128,7 +97,7 @@ body {
 }
 
 .chose {
-    width: 100%;
+    width: 60%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -139,5 +108,6 @@ body {
 }
 
 #escolher_cara {
-    width: 27.5%;
+    height: 45vh;
+    width: auto;
 }
