@@ -32,11 +32,21 @@ body {
     position: relative;
 }
 
+#escolher_cara {
+    height: 45vh;
+    width: auto;
+}
+
+.chose {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
 .escolher_cabelo {
-    align-items: flex-start;
     position: absolute;
     top: -3.8vh;
-    overflow: visible;
 }
 
 #hair {
@@ -45,10 +55,8 @@ body {
 }
 
 .escolher_olhos {
-    align-items: flex-start;
     position: absolute;
     top: 14.8vh;
-    overflow: visible;
 }
 
 #eyes {
@@ -57,10 +65,8 @@ body {
 }
 
 .escolher_boca {
-    align-items: flex-start;
     position: absolute;
     top: 26vh;
-    overflow: visible;
 }
 
 #mouth {
@@ -68,9 +74,14 @@ body {
     width: auto;
 }
 
-#right_mouth, #left_mouth, #right_eyes, #left_eyes, #left_hair, #right_hair {
-    width: 80px;
-    height: auto;
+.arrow {
+    height: 12vh;
+    width: auto;
+    cursor: pointer;
+}
+
+#left_hair, #right_hair {
+    padding-top: 6.5vh;
 }
 
 #botao_costumize {
@@ -94,20 +105,4 @@ body {
     background-color: #8b181b;
     border: 5px solid #3ac3d8;
     cursor: pointer;
-}
-
-.chose {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.arrow {
-    cursor: pointer;
-}
-
-#escolher_cara {
-    height: 45vh;
-    width: auto;
 }
