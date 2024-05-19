@@ -4,16 +4,30 @@ var left_eyes = document.getElementById("left_eyes");
 var right_eyes = document.getElementById("right_eyes");
 var left_mouth = document.getElementById("left_mouth");
 var right_mouth = document.getElementById("right_mouth");
-var hair = document.getElementById("hair");
-var eyes = document.getElementById("eyes");
-var mouth = document.getElementById("mouth");
-var hs = 1, es = 1, ms = 1;
-if (getCookie("hairn") == null)
+
+var hs, es, ms;
+if (getCookie("hairn") == null) {
+    hs = 1;
     document.cookie = "hairn=" + hs;
-if (getCookie("eyesn") == null)
+}
+else hs = getCookie("hairn");
+if (getCookie("eyesn") == null) {
+    es = 1;
     document.cookie = "eyesn=" + es;
-if (getCookie("mouthn") == null)
+}
+else es = getCookie("eyesn");
+if (getCookie("mouthn") == null) {
+    ms = 1;
     document.cookie = "mouthn=" + ms;
+}
+else ms = getCookie("mouthn");
+
+var hair = document.getElementById("hair");
+hair.src = "./images/hair" + hs + ".png";
+var eyes = document.getElementById("eyes");
+eyes.src = "./images/eyes" + es + ".png";
+var mouth = document.getElementById("mouth");
+mouth.src = "./images/mouth" + ms + ".png";
 
 left_hair.addEventListener("click", function lha() {
     if (hs > 0)

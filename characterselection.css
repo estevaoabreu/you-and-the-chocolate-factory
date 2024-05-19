@@ -106,3 +106,7 @@ body {
     border: 5px solid #3ac3d8;
     cursor: pointer;
 }
+
+#navbar {
+    display: none;
+}

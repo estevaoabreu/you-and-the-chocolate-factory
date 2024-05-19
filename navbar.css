@@ -21,7 +21,6 @@
     left: 1%;
     overflow: visible;
     cursor: pointer;
-    border: 2px solid red;
 }
 
 #face {
@@ -37,17 +36,17 @@
 }
 
 #eyes {
-    height: 9.5%;
+    height: 8.5%;
     width: auto;
     position: absolute;
     top: 37%;
 }
 
 #mouth {
-    height: 8%;
+    height: 9.5%;
     width: auto;
     position: absolute;
-    top: 58%;
+    top: 57%;
 }
 
 .nomesala {

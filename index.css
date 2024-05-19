@@ -16,8 +16,8 @@ html {
 
 #logo {
     display: block;
-    width: 26%;
-    height: auto;
+    height: 60vh;
+    width: auto;
     position: absolute;
     top: 10%;
     left: 50%;
