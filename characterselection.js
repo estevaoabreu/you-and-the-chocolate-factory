@@ -8,11 +8,11 @@ var hair = document.getElementById("hair");
 var eyes = document.getElementById("eyes");
 var mouth = document.getElementById("mouth");
 var hs = 1, es = 1, ms = 1;
-if (getCookie("hairn") != null)
+if (getCookie("hairn") == null)
     document.cookie = "hairn=" + hs;
-if (getCookie("eyesn") != null)
+if (getCookie("eyesn") == null)
     document.cookie = "eyesn=" + es;
-if (getCookie("mouthn") != null)
+if (getCookie("mouthn") == null)
     document.cookie = "mouthn=" + ms;
 
 left_hair.addEventListener("click", function lha() {

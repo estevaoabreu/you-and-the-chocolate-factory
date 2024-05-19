@@ -31,14 +31,18 @@ else nomesala = "";
 var personagem = document.createElement("div");
 personagem.classList.add("personagem");
 
-navbar.innerHTML += '<a href="./characterselection.html"><img src="./images/cara.png" class="static" id="face" alt="Cara do personagem"></a>';
-personagem.innerHTML += '<a href="./characterselection.html"><img src="./images/hair' + getCookie('hairn') + '.png" class="static" id="hair" alt="Cabelo do personagem"></a>';
-personagem.innerHTML += '<a href="./characterselection.html"><img src="./images/eyes' + getCookie('eyesn') + '.png" class="static" id="eyes" alt="Olhos do personagem"></a>';
-personagem.innerHTML += '<a href="./characterselection.html"><img src="./images/mouth' + getCookie('mouthn') + '.png" class="static" id="mouth" alt="Boca do personagem"></a>';
+personagem.innerHTML += '<img src="./images/cara.png" class="static" id="face" alt="Cara do personagem">';
+personagem.innerHTML += '<img src="./images/hair' + getCookie('hairn') + '.png" class="static" id="hair" alt="Cabelo do personagem">';
+personagem.innerHTML += '<img src="./images/eyes' + getCookie('eyesn') + '.png" class="static" id="eyes" alt="Olhos do personagem">';
+personagem.innerHTML += '<img src="./images/mouth' + getCookie('mouthn') + '.png" class="static" id="mouth" alt="Boca do personagem">';
 navbar.innerHTML += '<h1 class="nomesala">' + nomesala + '</h1>';
 
 document.getElementById("navbar").setAttribute("style", "background-color:" + getCookie("roomcolor") + ";");
 if (getCookie("sala") == "TelevisionRoom" || getCookie("sala") == "elevator")
   document.querySelector(".nomesala").setAttribute("style", "color: black;");
+
+personagem.addEventListener("click", function () {
+  window.location.href = "./characterselection.html";
+});
 
 navbar.appendChild(personagem);
