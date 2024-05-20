@@ -77,24 +77,17 @@ right_mouth.addEventListener("click", function rma() {
     document.cookie = "mouthn=" + ms;
 });
 
-if (getCookie("sala") == "ChocolateRoom") {
+if (getCookie("sala") == "ChocolateRoom")
     document.getElementById("botaodenext").setAttribute("href", "./chocolateroom.html");
-}
-else if (getCookie("sala") == "InventingRoom") {
+else if (getCookie("sala") == "InventingRoom")
     document.getElementById("botaodenext").setAttribute("href", "./inventingroom.html");
-}
-else if (getCookie("sala") == "TelevisionRoom") {
+else if (getCookie("sala") == "TelevisionRoom")
     document.getElementById("botaodenext").setAttribute("href", "./televisionroom.html");
-}
-else if (getCookie("sala") == "NutRoom") {
+else if (getCookie("sala") == "NutRoom")
     document.getElementById("botaodenext").setAttribute("href", "./nutroom.html");
-}
-else if (getCookie("sala") == "elevator") {
+else if (getCookie("sala") == "elevator")
     document.getElementById("botaodenext").setAttribute("href", "./elevator.html");
-}
-else if (getCookie("sala") == "FactoryEntrance") {
+else if (getCookie("sala") == "FactoryEntrance")
     document.getElementById("botaodenext").setAttribute("href", "./factoryentrance.html");
-}
-else if (getCookie("sala") == "openTicket") {
+else if (getCookie("sala") == "openTicket"|| getCookie("sala") == "selection")
     document.getElementById("botaodenext").setAttribute("href", "./openticket.html");
-}
