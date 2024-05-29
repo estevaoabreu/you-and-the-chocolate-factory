@@ -32,24 +32,27 @@ html {
     filter: blur(1px);
 }
 
-.popup {
+.popupdiv {
+    position: relative;
     width: 40%;
-    height: auto;
-    position: absolute;
+    height: 40%;
     left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
+}
+
+.popup {
+    width: 100%;
+    height: auto;
 }
 
 .btn {
     position: absolute;
-    left: 61%;
-    bottom: 19%;
-    transform: translate(-50%, 50%);
-    width: 25vh;
-    height: 8vh;
+    bottom: 7%;
+    right: 7%;
+    width: 25%;
+    height: 10%;
     border-radius: 0.5em;
-    font-size: 2em;
+    font-size: 1.5em;
     background-color: #ed1c24;
     color: #ffffff;
     border: none;

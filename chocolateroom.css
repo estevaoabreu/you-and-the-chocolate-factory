@@ -11,6 +11,15 @@
     z-index: -1;
 }
 
+#abobora {
+    position: absolute;
+    bottom: 34%;
+    height: 17%;
+    width: auto;
+    left: 18%;
+    z-index: -1;
+}
+
 #tintedImage {
     position: absolute;
     left: 50%;
@@ -21,4 +30,19 @@
 
 main {
     display: none;
+}
+
+.btn {
+    background-color: #603814;
+}
+
+.btn:hover {
+    color: #603814;
+    border: 5px solid #603814;
+}
+
+.abobora {
+    width: 30%;
+    left: 25%;
+    padding-top: 2%;
 }

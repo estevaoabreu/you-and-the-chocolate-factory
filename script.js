@@ -51,9 +51,15 @@ function popup(img) {
   var titulo = img.id.toString() + '.png';
   var btn = document.querySelector(".btn");
   var popup = document.querySelector(".popup");
+  var popupdiv = document.querySelector(".popupdiv");
   popuptoggle();
   popup.src = "./images/popup_" + titulo;
   btn.setAttribute("onclick", "popuptoggle()");
+  if (img.classList.contains("obj")) {
+    popupdiv.className = "";
+    popupdiv.classList.add("popupdiv");
+    popupdiv.classList.add(img.id.toString());
+  }
 }
 
 if (getCookie('hairn') == "")
