@@ -29,3 +29,12 @@ main {
     width: 63.1125px;
     height: 66.0875px;
 }
+
+.btn {
+    background-color: #6095bd;
+}
+
+.btn:hover {
+    color: #6095bd;
+    border: 5px solid #6095bd;
+}

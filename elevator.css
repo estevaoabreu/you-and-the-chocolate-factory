@@ -10,3 +10,18 @@
 .row2 {
     margin-bottom: 7vh;
 }
+
+.btn {
+    background-color: #dff5ff;
+    color: black;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 5px solid black;
+    color: black;
+}
+
+.nomesala {
+    color: black;
+}

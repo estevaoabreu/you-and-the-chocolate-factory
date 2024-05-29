@@ -3,9 +3,9 @@
 
 <head>
     <title>You and the Chocolate Factory</title>
-    <link rel="stylesheet" type="text/css" href="factoryentrance.css">
     <link rel="stylesheet" type="text/css" href="navbar.css">
     <link rel="stylesheet" type="text/css" href="geral.css">
+    <link rel="stylesheet" type="text/css" href="factoryentrance.css">
 </head>
 
 <body>
@@ -20,9 +20,10 @@
     <img src="./images/verucaobj_unactive.png" class="verucaimg obj" id="verucaobj" alt="veruca">
     <img src="./images/mikeobj_unactive.png" class="mikeimg obj" id="mikeobj" alt="mike">
 
-
-    <img src="images/popup_factory.png" class="static hidden factory popup">
-    <button id="botaonext" class="static hidden factory btn">Close</button>
+    <div class="popupdiv">
+        <img src="images/popup_factory.png" class="static hidden popup">
+        <button id="botaonext" class="static hidden btn">Close</button>
+    </div>
 </body>
 <script src="./script.js"></script>
 <script src="./factoryentrance.js"></script>

@@ -23,3 +23,12 @@
 main {
     display: none;
 }
+
+.btn {
+    background-color: #b560a4;
+}
+
+.btn:hover {
+    color: #b560a4;
+    border: 5px solid #b560a4;
+}

@@ -24,3 +24,19 @@
 main {
     display: none;
 }
+
+.btn {
+    background-color: black;
+    border: 5px solid #fdfef9;
+    color: #fdfef9;
+}
+
+.btn:hover {
+    background-color: #fdfef9;
+    border: 5px solid black;
+    color: black;
+}
+
+.nomesala {
+    color: black;
+}

@@ -42,3 +42,12 @@
     width: auto;
     right: 10%;
 }
+
+.btn {
+    background-color: #3e424b;
+}
+
+.btn:hover {
+    color: #3e424b;
+    border: 5px solid #3e424b;
+}

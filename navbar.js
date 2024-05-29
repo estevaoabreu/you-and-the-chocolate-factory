@@ -41,8 +41,6 @@ personagem.innerHTML += '<img src="./images/eyes' + getCookie('eyesn') + '.png" 
 personagem.innerHTML += '<img src="./images/mouth' + getCookie('mouthn') + '.png" class="static" id="mouth" alt="Boca do personagem">';
 
 document.getElementById("navbar").setAttribute("style", "background-color:" + getCookie("roomcolor") + ";");
-if (getCookie("sala") == "TelevisionRoom" || getCookie("sala") == "elevator")
-  document.querySelector(".nomesala").setAttribute("style", "color: black;");
 
 personagem.addEventListener("click", function () {
   window.location.href = "./characterselection.html";
