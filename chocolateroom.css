@@ -13,10 +13,28 @@
 
 #abobora {
     position: absolute;
-    bottom: 34%;
-    height: 17%;
+    bottom: 33%;
+    height: 25%;
     width: auto;
-    left: 18%;
+    left: 15.5%;
+    z-index: -1;
+}
+
+#maca {
+    position: absolute;
+    top: 25%;
+    height: 8%;
+    width: auto;
+    right: 6%;
+    z-index: -1;
+}
+
+#chocolate {
+    position: absolute;
+    bottom: 35.5%;
+    height: 8%;
+    width: auto;
+    right: 18%;
     z-index: -1;
 }
 

@@ -3,7 +3,7 @@
     height: 100px;
     margin: 0px;
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     border-bottom: solid;
     border-width: medium;
@@ -55,4 +55,11 @@
     position: absolute;
     left: 50%;
     translate: -50%;
+}
+
+.willywonka {
+    height: 110%;
+    width: auto;
+    position: absolute;
+    right: 0;
 }
