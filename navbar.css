@@ -21,6 +21,7 @@
     left: 1%;
     overflow: visible;
     cursor: pointer;
+    z-index: 10;
 }
 
 #face {

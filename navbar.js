@@ -42,10 +42,13 @@ personagem.innerHTML += '<img src="./images/mouth' + getCookie('mouthn') + '.png
 
 document.getElementById("navbar").setAttribute("style", "background-color:" + getCookie("roomcolor") + ";");
 
-personagem.addEventListener("click", function () {
-  window.location.href = "./characterselection.html";
-});
-
 navbar.appendChild(personagem);
 navbar.innerHTML += '<h1 class="nomesala">' + nomesala + '</h1>';
 navbar.appendChild(willywonka);
+
+document.getElementById("hair").addEventListener("click", function () {
+  window.location.href = "./characterselection.html";
+});
+personagem.addEventListener("click", function () {
+  window.location.href = "./characterselection.html";
+});
