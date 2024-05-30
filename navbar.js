@@ -44,7 +44,11 @@ document.getElementById("navbar").setAttribute("style", "background-color:" + ge
 
 navbar.appendChild(personagem);
 navbar.innerHTML += '<h1 class="nomesala">' + nomesala + '</h1>';
-navbar.appendChild(willywonka);
+navbar.appendChild(willywonka); 
+
+if (getCookie("sala") == "openTicket") {
+  willywonka.classList.add("hidden");
+}
 
 document.getElementById("hair").addEventListener("click", function () {
   window.location.href = "./characterselection.html";
