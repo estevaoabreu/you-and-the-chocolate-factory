@@ -49,5 +49,13 @@
 
 .btn:hover {
     color: #3e424b;
-    border: 5px solid #3e424b;
+    border: 3px solid #3e424b;
+}
+
+.mikeobj {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    left: 70%;
+    transform: translate(-50%);
 }

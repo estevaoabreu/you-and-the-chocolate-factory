@@ -36,7 +36,7 @@ html {
     position: relative;
     width: 40%;
     height: 40%;
-    left: 50%;
+    left: 75%;
     transform: translate(-50%);
 }
 
@@ -47,12 +47,13 @@ html {
 
 .btn {
     position: absolute;
-    bottom: 7%;
-    right: 7%;
+    right: 49%;
+    bottom: 15%;
+    transform: translate(50%);
     width: 25%;
     height: 10%;
     border-radius: 0.5em;
-    font-size: 1.5em;
+    font-size: 1.2em;
     background-color: #ed1c24;
     color: #ffffff;
     border: none;
@@ -63,7 +64,7 @@ html {
     cursor: pointer;
     color: #ed1c24;
     background-color: #ffffff;
-    border: 5px solid #ed1c24;
+    border: 3px solid #ed1c24;
 }
 
 .x {
