@@ -11,3 +11,32 @@
 .diactive {
     visibility: hidden;
 }
+
+.popupdiv {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.btn {
+    position: absolute;
+    bottom: 7%;
+    right:50%;
+    width: 25%;
+    height: 10%;
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    background-color: #ed1c24;
+    color: #ffffff;
+    border: none;
+    font-family: Laughter;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: #ed1c24;
+    background-color: #ffffff;
+    border: 5px solid #ed1c24;
+}
