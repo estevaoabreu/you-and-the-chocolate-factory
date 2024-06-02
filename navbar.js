@@ -26,6 +26,10 @@ else if (getCookie("sala") == "openTicket") {
   nomesala = "";
   document.cookie = "roomcolor=#f15f22";
 }
+else if (getCookie("sala") == "ending") {
+  nomesala = "";
+  document.cookie = "roomcolor=#78256d";
+}
 else nomesala = "";
 
 var personagem = document.createElement("div");
