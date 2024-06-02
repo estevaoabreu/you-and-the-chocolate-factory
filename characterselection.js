@@ -4,8 +4,6 @@ var left_eyes = document.getElementById("left_eyes");
 var right_eyes = document.getElementById("right_eyes");
 var left_mouth = document.getElementById("left_mouth");
 var right_mouth = document.getElementById("right_mouth");
-const audio = new Audio("./sounds/popup_sound.mp3");
-const audio2 = new Audio("./sounds/select-sound.mp3");
 
 var hs, es, ms;
 if (getCookie("hairn") == null) {
@@ -37,7 +35,7 @@ left_hair.addEventListener("click", function lha() {
     else hs = 3;
     hair.src = "./images/hair" + hs + ".png";
     document.cookie = "hairn=" + hs;
-    audio.play();
+    arrow.play();
 });
 
 right_hair.addEventListener("click", function rha() {
@@ -46,7 +44,7 @@ right_hair.addEventListener("click", function rha() {
     else hs = 0;
     hair.src = "./images/hair" + hs + ".png";
     document.cookie = "hairn=" + hs;
-    audio.play();
+    arrow.play();
 });
 
 left_eyes.addEventListener("click", function lea() {
@@ -55,7 +53,7 @@ left_eyes.addEventListener("click", function lea() {
     else es = 3;
     eyes.src = "./images/eyes" + es + ".png";
     document.cookie = "eyesn=" + es;
-    audio.play();
+    arrow.play();
 });
 
 right_eyes.addEventListener("click", function rea() {
@@ -64,7 +62,7 @@ right_eyes.addEventListener("click", function rea() {
     else es = 0;
     eyes.src = "./images/eyes" + es + ".png";
     document.cookie = "eyesn=" + es;
-    audio.play();
+    arrow.play();
 });
 
 left_mouth.addEventListener("click", function lma() {
@@ -73,7 +71,7 @@ left_mouth.addEventListener("click", function lma() {
     else ms = 3;
     mouth.src = "./images/mouth" + ms + ".png";
     document.cookie = "mouthn=" + ms;
-    audio.play();
+    arrow.play();
 });
 
 right_mouth.addEventListener("click", function rma() {
@@ -82,12 +80,12 @@ right_mouth.addEventListener("click", function rma() {
     else ms = 0;
     mouth.src = "./images/mouth" + ms + ".png";
     document.cookie = "mouthn=" + ms;
-    audio.play();
+    arrow.play();
 });
 
 document.getElementById("botaodenext").addEventListener("click", function () {
-    audio2.play();
+    next.play();
     setTimeout(function () {
         window.location.href = "./factoryentrance.html";
-    }, audio2.duration * 1000);
+    }, next.duration * 1000);
 });

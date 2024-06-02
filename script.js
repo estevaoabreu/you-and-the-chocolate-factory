@@ -1,7 +1,9 @@
 var imagens = document.querySelectorAll("img");
 var navbar = document.getElementById("navbar");
-
 var nomesala;
+const pop = new Audio("./sounds/pop.mp3");
+const next = new Audio("./sounds/next.mp3");
+const arrow = new Audio("./sounds/arrow.mp3");
 
 function getCookie(cname) {
   let name = cname + "=";

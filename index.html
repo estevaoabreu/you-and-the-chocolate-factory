@@ -13,15 +13,22 @@
 <body>
     <div class="corpo">
         <img id="logo" src="images/logo.svg" alt="logo" class="static">
-        <div class="botao">
-            <a href="characterselection.html">
-                <button id="botao_start">Let's Start</button>
-            </a>
+        <div class="botao" id="bttst">
+            <button id="botao_start">Let's Start</button>
         </div>
     </div>
 </body>
 <script src="./script.js"></script>
 <script>
     document.cookie = "sala=selection";
+
+    document.getElementById("bttst").addEventListener("click", function () {
+        next.play();
+        setTimeout(function () {
+            window.location.href = "./characterselection.html";
+        }, next.duration * 1000);
+    });
+
 </script>
+
 </html>
