@@ -5,6 +5,7 @@ var right_eyes = document.getElementById("right_eyes");
 var left_mouth = document.getElementById("left_mouth");
 var right_mouth = document.getElementById("right_mouth");
 const audio = new Audio("./sounds/popup_sound.mp3");
+const audio2 = new Audio("./sounds/select-sound.mp3");
 
 var hs, es, ms;
 if (getCookie("hairn") == null) {
@@ -84,17 +85,9 @@ right_mouth.addEventListener("click", function rma() {
     audio.play();
 });
 
-if (getCookie("sala") == "ChocolateRoom")
-    document.getElementById("botaodenext").setAttribute("href", "./chocolateroom.html");
-else if (getCookie("sala") == "InventingRoom")
-    document.getElementById("botaodenext").setAttribute("href", "./inventingroom.html");
-else if (getCookie("sala") == "TelevisionRoom")
-    document.getElementById("botaodenext").setAttribute("href", "./televisionroom.html");
-else if (getCookie("sala") == "NutRoom")
-    document.getElementById("botaodenext").setAttribute("href", "./nutroom.html");
-else if (getCookie("sala") == "elevator")
-    document.getElementById("botaodenext").setAttribute("href", "./elevator.html");
-else if (getCookie("sala") == "FactoryEntrance")
-    document.getElementById("botaodenext").setAttribute("href", "./factoryentrance.html");
-else if (getCookie("sala") == "openTicket"|| getCookie("sala") == "selection")
-    document.getElementById("botaodenext").setAttribute("href", "./openticket.html");
+document.getElementById("botaodenext").addEventListener("click", function () {
+    audio2.play();
+    setTimeout(function () {
+        window.location.href = "./factoryentrance.html";
+    }, audio2.duration * 1000);
+});
