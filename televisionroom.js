@@ -11,6 +11,10 @@ var windowHeight = window.innerHeight;
 
 document.cookie = "sala=TelevisionRoom";
 
+
+window.addEventListener('load', function() {
+    pop.play();
+});
 mikeobj.addEventListener("click", function () {
     document.querySelector(".scene").classList.toggle("hidden");
     document.querySelector(".mikediv").classList.toggle("hidden");

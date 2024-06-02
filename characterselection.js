@@ -86,6 +86,6 @@ right_mouth.addEventListener("click", function rma() {
 document.getElementById("botaodenext").addEventListener("click", function () {
     next.play();
     setTimeout(function () {
-        window.location.href = "./factoryentrance.html";
+        window.location.href = "./openticket.html";
     }, next.duration * 1000);
 });

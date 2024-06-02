@@ -18,17 +18,18 @@
     height: 40%;
     left: 50%;
     transform: translate(-50%);
+    padding-top: 3%;
 }
 
 .btn {
     position: absolute;
-    bottom: 7%;
+    bottom: 10%;
     right:50%;
     width: 25%;
     height: 10%;
     border-radius: 0.5em;
     font-size: 1.5em;
-    background-color: #ed1c24;
+    background-color: #f15f22;
     color: #ffffff;
     border: none;
     font-family: Laughter;
@@ -36,7 +37,7 @@
 
 .btn:hover {
     cursor: pointer;
-    color: #ed1c24;
+    color: #f15f22;
     background-color: #ffffff;
-    border: 5px solid #ed1c24;
+    border: 5px solid #f15f22;
 }
