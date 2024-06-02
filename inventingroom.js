@@ -9,6 +9,10 @@ document.cookie = "violetdone=false";
 document.cookie = "sala=InventingRoom";
 
 
+window.addEventListener('load', function() {
+    pop.play();
+});
+
 violet.addEventListener("click", function () {
     if (inf < 400)
         inf += 25;

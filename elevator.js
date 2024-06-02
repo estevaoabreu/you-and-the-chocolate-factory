@@ -3,6 +3,10 @@ var shake = 0;
 
 document.cookie = "sala=elevator";
 
+window.addEventListener('load', function() {
+    pop.play();
+});
+
 var buttonContainer = document.createElement('div');
 buttonContainer.style.display = 'flex';
 buttonContainer.style.flexWrap = 'wrap';

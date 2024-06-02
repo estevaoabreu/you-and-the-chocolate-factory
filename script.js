@@ -1,7 +1,10 @@
 var imagens = document.querySelectorAll("img");
 var navbar = document.getElementById("navbar");
-
 var nomesala;
+const pop = new Audio("./sounds/pop.mp3");
+const next = new Audio("./sounds/next.mp3");
+const arrow = new Audio("./sounds/arrow.mp3");
+const click = new Audio("./sounds/click.mp3");
 
 function getCookie(cname) {
   let name = cname + "=";
@@ -45,6 +48,7 @@ function popuptoggle() {
   popup.classList.toggle("hidden");
   btn.classList.toggle("hidden");
   btn.setAttribute("onclick", "popuptoggle()");
+  pop.play();
 }
 
 function popup(img) {
@@ -69,3 +73,6 @@ if (getCookie('eyesn') == "")
 if (getCookie('mouthn') == "")
   document.cookie = "mouthn=1";
 
+document.getElementById("botaonext").addEventListener("click", function() {
+  click.play();
+});

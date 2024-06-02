@@ -9,3 +9,12 @@
 .popupdiv {
     margin-top: 4%;
 }
+
+.btn {
+    background-color: #78256d;
+}
+
+.btn:hover {
+    color: #78256d;
+    border: 5px solid #78256d;
+}

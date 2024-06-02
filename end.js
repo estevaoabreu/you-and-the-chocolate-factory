@@ -2,6 +2,7 @@ var elevator = document.getElementById('elevator');
 let yPos = window.innerHeight;
 let speed = 0.3;
 var shakeAmount = 0.2;
+document.cookie = "sala=ending";
 
 function animateElevator() {
     elevator.style.display = 'block';

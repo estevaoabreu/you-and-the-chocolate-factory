@@ -5,6 +5,11 @@ document.cookie = "verucadone=false";
 
 document.cookie = "sala=NutRoom";
 
+
+window.addEventListener('load', function() {
+    pop.play();
+});
+
 verucaobj.addEventListener("click", function () {
     document.querySelector(".scene").classList.toggle("hidden");
     document.querySelector(".verucadiv").classList.toggle("hidden");

@@ -2,6 +2,10 @@ var augustusobj = document.getElementById("augustusgame");
 document.cookie = "augustusdone=false";
 document.cookie = "sala=ChocolateRoom";
 
+window.addEventListener('load', function() {
+    pop.play();
+});
+
 augustusobj.addEventListener("click", function () {
     document.querySelector(".scene").classList.toggle("hidden");
     document.querySelector(".augustusdiv").classList.toggle("hidden");
@@ -86,7 +90,7 @@ function draw() {
         document.cookie = "augustusdone=looped";
         popuptoggle();
         var message = document.querySelector(".popup");
-        message.src = "images/popup_chocroomend.png"
+        message.src = "./images/popup_chocroomend.png"
         var btn = document.querySelector(".btn");
         btn.innerHTML = "Next";
         btn.setAttribute("onclick", "document.location.href = './inventingroom.html';");
