@@ -24,7 +24,7 @@ else if (getCookie("sala") == "FactoryEntrance") {
 }
 else if (getCookie("sala") == "openTicket") {
   nomesala = "";
-  document.cookie = "roomcolor=#ed1c24";
+  document.cookie = "roomcolor=#f15f22";
 }
 else nomesala = "";
 
