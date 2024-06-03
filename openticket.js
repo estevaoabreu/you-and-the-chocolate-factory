@@ -10,6 +10,7 @@ document.cookie = "sala=openTicket";
 
 
 papel.addEventListener("click", function desembrulhar() {
+    paper.play();
     contador++;
     if (contador < nrcliques)
         papel.src = "./images/papel" + contador + ".png";
