@@ -32,3 +32,10 @@ main {
     color: #b560a4;
     border: 5px solid #b560a4;
 }
+
+.violetgame {
+    width: 50%;
+    height: 50%;
+    left: 70%;
+    transform: translate(-50%);
+}

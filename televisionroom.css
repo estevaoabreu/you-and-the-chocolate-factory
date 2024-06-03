@@ -40,3 +40,10 @@ main {
 .nomesala {
     color: black;
 }
+
+.mikegame {
+    width: 50%;
+    height: 50%;
+    left: 70%;
+    transform: translate(-50%);
+}
