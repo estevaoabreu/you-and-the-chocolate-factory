@@ -20,7 +20,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0px;
-    overflow: visible;  
+    overflow: visible;
     position: relative;
 }
 
@@ -72,7 +72,8 @@ body {
     cursor: pointer;
 }
 
-#left_hair, #right_hair {
+#left_hair,
+#right_hair {
     padding-top: 6.5vh;
 }
 

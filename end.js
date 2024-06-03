@@ -5,7 +5,7 @@ var shakeAmount = 0.2;
 document.cookie = "sala=ending";
 var vol = 1;
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     rocket.play();
     fly.play();
 });
@@ -25,7 +25,7 @@ function animateElevator() {
             popuptoggle();
         }, 1000);
     }
-    vol -= 1/16;
+    vol -= 1 / 16;
     rocket.volume = vol;
 }
 

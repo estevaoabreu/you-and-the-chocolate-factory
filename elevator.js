@@ -4,7 +4,7 @@ var vol = 0;
 
 document.cookie = "sala=elevator";
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     pop.play();
 });
 
@@ -27,19 +27,20 @@ for (let i = 0; i < 8; i++) {
     buttonsE[i].classList.add('static');
 
     buttonsE[i].addEventListener('click', function () {
-        if(shake == 0){
+        if (shake == 0) {
             rocket.play();
-            rocket.loop = true;}
+            rocket.loop = true;
+        }
         if (this.src.includes('elevator_btn_u' + (i + 1) + '.png')) {
             this.src = './images/elevator_btn_a' + (i + 1) + '.png';
             shake++;
-            vol += 1/8;
+            vol += 1 / 8;
         } else {
             this.src = './images/elevator_btn_u' + (i + 1) + '.png';
             if (shake > 8)
                 shake = 8;
             shake--;
-            vol -= 1/8;
+            vol -= 1 / 8;
         }
         rocket.volume = vol;
     });

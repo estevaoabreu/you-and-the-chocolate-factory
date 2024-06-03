@@ -84,6 +84,6 @@ if (getCookie('eyesn') == "")
 if (getCookie('mouthn') == "")
   document.cookie = "mouthn=1";
 
-document.getElementById("botaonext").addEventListener("click", function() {
+document.getElementById("botaonext").addEventListener("click", function () {
   click.play();
 });
