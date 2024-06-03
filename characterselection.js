@@ -86,6 +86,21 @@ right_mouth.addEventListener("click", function rma() {
 document.getElementById("botaodenext").addEventListener("click", function () {
     next.play();
     setTimeout(function () {
-        window.location.href = "./openticket.html";
+        if (getCookie("sala") == "ChocolateRoom")
+            window.location.href = "./chocolateroom.html";
+        else if (getCookie("sala") == "InventingRoom")
+            window.location.href = "./inventingroom.html";
+        else if (getCookie("sala") == "TelevisionRoom")
+            window.location.href = "./tvroom.html";
+        else if (getCookie("sala") == "NutRoom")
+            window.location.href = "./nutroom.html";
+        else if (getCookie("sala") == "elevator")
+            window.location.href = "./elevator.html";
+        else if (getCookie("sala") == "FactoryEntrance")
+            window.location.href = "./factoryentrance.html";
+        else if (getCookie("sala") == "openTicket")
+            window.location.href = "./openticket.html";
+        else
+            window.location.href = "./openticket.html";
     }, next.duration * 1000);
 });

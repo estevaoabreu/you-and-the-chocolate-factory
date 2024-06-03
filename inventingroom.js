@@ -9,7 +9,7 @@ document.cookie = "violetdone=false";
 document.cookie = "sala=InventingRoom";
 
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     pop.play();
 });
 

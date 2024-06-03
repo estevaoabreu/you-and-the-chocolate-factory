@@ -2,7 +2,7 @@ var augustusobj = document.getElementById("augustusgame");
 document.cookie = "augustusdone=false";
 document.cookie = "sala=ChocolateRoom";
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     pop.play();
 });
 

@@ -12,7 +12,7 @@ var windowHeight = window.innerHeight;
 document.cookie = "sala=TelevisionRoom";
 
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     pop.play();
 });
 mikeobj.addEventListener("click", function () {
