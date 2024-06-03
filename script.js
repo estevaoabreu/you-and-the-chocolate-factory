@@ -11,6 +11,8 @@ const woosh = new Audio("./sounds/woosh.mp3");
 const balloon = new Audio("./sounds/balloon.mp3");
 const squirrel = new Audio("./sounds/squirrel.mp3");
 const shrink = new Audio("./sounds/shrink.mp3");
+const rocket = new Audio("./sounds/rocket.mp3");
+const fly = new Audio("./sounds/fly.mp3");
 
 function getCookie(cname) {
   let name = cname + "=";

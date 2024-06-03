@@ -3,6 +3,12 @@ let yPos = window.innerHeight;
 let speed = 0.3;
 var shakeAmount = 0.2;
 document.cookie = "sala=ending";
+var vol = 1;
+
+window.addEventListener('load', function() {
+    rocket.play();
+    fly.play();
+});
 
 function animateElevator() {
     elevator.style.display = 'block';
@@ -19,6 +25,8 @@ function animateElevator() {
             popuptoggle();
         }, 1000);
     }
+    vol -= 1/16;
+    rocket.volume = vol;
 }
 
 animateElevator();
