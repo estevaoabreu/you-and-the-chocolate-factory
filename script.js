@@ -13,6 +13,7 @@ const squirrel = new Audio("./sounds/squirrel.mp3");
 const shrink = new Audio("./sounds/shrink.mp3");
 const rocket = new Audio("./sounds/rocket.mp3");
 const fly = new Audio("./sounds/fly.mp3");
+const hover = new Audio("./sounds/hover.mp3");
 
 function getCookie(cname) {
   let name = cname + "=";
@@ -43,11 +44,13 @@ for (var i = 0; i < imagens.length; i++) {
 function ativar(img) {
   var titulo = img.id.toString() + '_active.png';
   img.src = "images/" + titulo;
+  hover.play();
 }
 
 function desativar(img) {
   var titulo = img.id.toString() + '_unactive.png';
   img.src = "images/" + titulo;
+  hover.play();
 }
 
 function popuptoggle() {
