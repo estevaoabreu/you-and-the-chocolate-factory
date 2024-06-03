@@ -38,3 +38,31 @@ main {
     color: #6095bd;
     border: 5px solid #6095bd;
 }
+
+#trash {
+    position: absolute;
+    bottom: 35.5%;
+    height: 25%;
+    width: auto;
+    left: 43.5%;
+    z-index: -1;
+}
+
+#nozes {
+    position: absolute;
+    top: 60%;
+    height: 25%;
+    width: auto;
+    right: 20%;
+    z-index: -1;
+}
+
+#esquilo {
+    position: absolute;
+    top: 40%;
+    height: 25%;
+    width: auto;
+    right: 20%;
+    z-index: -1;
+}
+

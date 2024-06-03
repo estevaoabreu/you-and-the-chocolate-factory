@@ -13,10 +13,10 @@
 
 .scene .mikeimg {
     position: absolute;
-    top: 32%;
+    top: 45%;
     height: 40%;
     width: auto;
-    left: 18%;
+    right: 40%;
     z-index: -1;
     user-select: none;
 }
@@ -40,3 +40,31 @@ main {
 .nomesala {
     color: black;
 }
+
+#remote {
+    position: absolute;
+    bottom: 30%;
+    height: 10%;
+    width: auto;
+    left: 35%;
+    z-index: -1;
+}
+
+#tv {
+    position: absolute;
+    top: 53%;
+    height: 50%;
+    width: auto;
+    right: 3%;
+    z-index: -1;
+}
+
+#oculos {
+    position: absolute;
+    bottom: 10%;
+    height: 30%;
+    width: auto;
+    left: 10%;
+    z-index: -1;
+}
+
