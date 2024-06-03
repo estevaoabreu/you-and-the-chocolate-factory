@@ -62,9 +62,15 @@ main {
 #oculos {
     position: absolute;
     bottom: 10%;
-    height: 30%;
+    height: 20%;
     width: auto;
     left: 10%;
     z-index: -1;
 }
 
+.mikegame {
+    width: 50%;
+    height: 50%;
+    left: 70%;
+    transform: translate(-50%);
+}

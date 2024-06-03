@@ -41,28 +41,34 @@ main {
 
 #trash {
     position: absolute;
-    bottom: 35.5%;
-    height: 25%;
+    bottom: 42.5%;
+    height: 28%;
     width: auto;
-    left: 43.5%;
+    left: 44%;
     z-index: -1;
 }
 
 #nozes {
     position: absolute;
     top: 60%;
-    height: 25%;
+    height: 10%;
     width: auto;
     right: 20%;
     z-index: -1;
 }
 
-#esquilo {
+#squirrelobj {
     position: absolute;
-    top: 40%;
-    height: 25%;
+    top: 60%;
+    height: 10%;
     width: auto;
-    right: 20%;
+    right: 26%;
     z-index: -1;
 }
 
+.verucagame {
+    width: 50%;
+    height: 50%;
+    left: 70%;
+    transform: translate(-50%);
+}
