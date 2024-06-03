@@ -39,7 +39,6 @@ main {
     border: 5px solid #6095bd;
 }
 
-<<<<<<< HEAD
 #trash {
     position: absolute;
     bottom: 35.5%;
@@ -67,11 +66,3 @@ main {
     z-index: -1;
 }
 
-=======
-.verucagame {
-    width: 50%;
-    height: 50%;
-    left: 70%;
-    transform: translate(-50%);
-}
->>>>>>> 34087c1bf2751e8804827d6d6ee0480e6858d0a5
