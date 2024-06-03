@@ -43,6 +43,7 @@ document.addEventListener('mousemove', (event) => {
         document.cookie = "mikedone=sim";
         isResizing = false;
     } else if (isResizing && getCookie('mikedone') == "false") {
+        shrink.play();
         mike.style.width = newWidth + "px";
         mike.style.height = newHeight + "px";
     }

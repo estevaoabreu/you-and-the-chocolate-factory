@@ -62,6 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 data[index + 2] = 14;
                                 data[index + 3] = 255;
                                 changedNonTransparentPixels++;
+                                woosh.play();
                             }
 
                             var percentChanged = (changedNonTransparentPixels / totalNonTransparentPixels) * 100;

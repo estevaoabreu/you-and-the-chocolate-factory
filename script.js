@@ -5,6 +5,15 @@ const pop = new Audio("./sounds/pop.mp3");
 const next = new Audio("./sounds/next.mp3");
 const arrow = new Audio("./sounds/arrow.mp3");
 const click = new Audio("./sounds/click.mp3");
+const paper = new Audio("./sounds/paper.mp3");
+const gate = new Audio("./sounds/gate.mp3");
+const woosh = new Audio("./sounds/woosh.mp3");
+const balloon = new Audio("./sounds/balloon.mp3");
+const squirrel = new Audio("./sounds/squirrel.mp3");
+const shrink = new Audio("./sounds/shrink.mp3");
+const rocket = new Audio("./sounds/rocket.mp3");
+const fly = new Audio("./sounds/fly.mp3");
+const hover = new Audio("./sounds/hover.mp3");
 
 function getCookie(cname) {
   let name = cname + "=";
@@ -35,11 +44,13 @@ for (var i = 0; i < imagens.length; i++) {
 function ativar(img) {
   var titulo = img.id.toString() + '_active.png';
   img.src = "images/" + titulo;
+  hover.play();
 }
 
 function desativar(img) {
   var titulo = img.id.toString() + '_unactive.png';
   img.src = "images/" + titulo;
+  hover.play();
 }
 
 function popuptoggle() {

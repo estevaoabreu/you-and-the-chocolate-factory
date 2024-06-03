@@ -58,3 +58,10 @@ main {
     color: #603814;
     border: 5px solid #603814;
 }
+
+.augustusgame {
+    width: 50%;
+    height: 50%;
+    left: 70%;
+    transform: translate(-50%);
+}

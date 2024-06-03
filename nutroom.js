@@ -6,7 +6,7 @@ document.cookie = "verucadone=false";
 document.cookie = "sala=NutRoom";
 
 
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
     pop.play();
 });
 
@@ -17,25 +17,29 @@ verucaobj.addEventListener("click", function () {
 });
 
 veruca.addEventListener('click', function (event) {
-    var mouseX = event.clientX;
-    var mouseY = event.clientY;
+    if (squirrelQuant < 20) {
+        var mouseX = event.clientX;
+        var mouseY = event.clientY;
 
-    var squirrelImage = document.createElement('img');
-    squirrelImage.src = './images/squirrel.png';
-    squirrelImage.classList.add('squirrel');
-    squirrelImage.style.left = mouseX - 63.1125 / 2 + "px";
-    squirrelImage.style.top = mouseY - 66.0875 / 2 + "px";
+        var squirrelImage = document.createElement('img');
+        squirrelImage.src = './images/squirrel.png';
+        squirrelImage.classList.add('squirrel');
+        squirrelImage.style.left = mouseX - 63.1125 / 2 + "px";
+        squirrelImage.style.top = mouseY - 66.0875 / 2 + "px";
 
-    if (mouseX - 63.1125 / 2 > window.innerWidth / 2) {
-        squirrelImage.style.transform = 'scaleX(-1)';
+        if (mouseX - 63.1125 / 2 > window.innerWidth / 2) {
+            squirrelImage.style.transform = 'scaleX(-1)';
+        }
+
+        document.body.appendChild(squirrelImage);
+
+        squirrel.play();
+
+        squirrelQuant++;
     }
-
-    document.body.appendChild(squirrelImage);
-
-    squirrelQuant++;
-    if (squirrelQuant >= 20) {
+    else
         document.cookie = "verucadone=sim";
-    }
+
 });
 
 function draw() {

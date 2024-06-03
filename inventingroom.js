@@ -16,6 +16,7 @@ window.addEventListener('load', function() {
 violet.addEventListener("click", function () {
     if (inf < 400)
         inf += 25;
+    balloon.play();
 });
 
 violetobj.addEventListener("click", function () {
