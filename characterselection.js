@@ -100,5 +100,7 @@ document.getElementById("botaodenext").addEventListener("click", function () {
             window.location.href = "./factoryentrance.html";
         else if (getCookie("sala") == "openTicket")
             window.location.href = "./openticket.html";
+        else
+            window.location.href = "./openticket.html";
     }, next.duration * 1000);
 });
