@@ -32,6 +32,8 @@ veruca.addEventListener('click', function (event) {
 
     document.body.appendChild(squirrelImage);
 
+    squirrel.play();
+
     squirrelQuant++;
     if (squirrelQuant >= 20) {
         document.cookie = "verucadone=sim";
